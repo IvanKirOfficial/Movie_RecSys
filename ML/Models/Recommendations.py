@@ -1,11 +1,8 @@
-import os
-import sys
-
 import pandas as pd
 import numpy as np
 
 from ast import literal_eval
-from sklearn.feature_extraction.text import  CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.stem.snowball import SnowballStemmer
 import pickle
